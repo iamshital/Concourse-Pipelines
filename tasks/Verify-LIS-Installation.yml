@@ -10,3 +10,4 @@ run:
   args: 
   - Get-Process;
   - pwd;
+  - '.\scripts\script1.ps1';
