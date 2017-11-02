@@ -9,4 +9,4 @@ run:
   dir: "CP"
   args: 
   - Get-Process
-  pwd
+  - pwd
