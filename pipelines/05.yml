@@ -1,0 +1,15 @@
+---
+resources:
+- name: CP
+  type: git
+  source:
+    uri: https://github.com/iamshital/Concourse-Pipelines.git
+
+jobs:
+- name: job-windows-pwd
+  public: true
+  plan:
+  - get: CP
+    trigger: true
+  - task: pwd
+    file: CP/tasks/Verify-LIS-Installation.yml
