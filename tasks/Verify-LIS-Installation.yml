@@ -8,5 +8,5 @@ run:
   path: powershell
   dir: "CP"
   args: 
-  - Get-Process
-  - pwd
+  - Get-Process;
+  - pwd;
