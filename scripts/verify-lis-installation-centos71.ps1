@@ -4,7 +4,7 @@ Get-ChildItem -Recurse | Unblock-File
 Write-Host ----------------------
 Write-Host $PWD
 Write-Host ----------------------
-echo ".\AzureAutomationManager.ps1 -runtests -Distro CentOS73 -cycleName LIS-BUILD -xmlConfigFile Azure_ICA_all_run-CloudTestAutoBuilds-3427.xml -OverrideVMSize Standard_A1 -ImageType Standard -UseAzureResourceManager -customLIS lisnext -customLISBranch master"
+echo ".\AzureAutomationManager.ps1 -runtests -Distro CentOS71 -cycleName LIS-BUILD -xmlConfigFile Azure_ICA_all_run-CloudTestAutoBuilds-3427.xml -OverrideVMSize Standard_A1 -ImageType Standard -UseAzureResourceManager -customLIS lisnext -customLISBranch master"
 Write-Host ----------------------
 $Day = Get-Date -Format "yyyy-MM-dd"
 $Time = Get-Date -Format "HH-ss-ffff"
