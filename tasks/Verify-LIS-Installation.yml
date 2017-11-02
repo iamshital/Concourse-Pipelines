@@ -7,4 +7,4 @@ inputs:
 run:
   path: powershell
   dir: "CP"
-  args: ["ls"]
+  args: ["scripts\\script1.ps1"]
