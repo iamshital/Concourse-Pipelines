@@ -15,7 +15,7 @@ mkdir C:\AutomationExecutions\$Day\$Time -ErrorAction SilentlyContinue
 
 $folderName = "C:\AutomationExecutions\$Day\$Time"
 
-Copy-Item -Recurse * C:\AutomationExecutions\$folderName
+Copy-Item -Recurse * $folderName
 
 cd C:\AutomationExecutions\$folderName
 .\AzureAutomationManager.ps1 -runtests -Distro U16IP1CDK -cycleName PROVISION -xmlConfigFile Azure_ICA_all_run-CloudTestAutoBuilds-3427.xml -OverrideVMSize Standard_A1 -ImageType Standard -UseAzureResourceManager
