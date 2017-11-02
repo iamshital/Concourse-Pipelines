@@ -6,4 +6,5 @@ inputs:
 
 run:
   path: powershell
-  args: ["tree"]
+  dir: "CP"
+  args: [".\\scripts\\script1.ps1"]
