@@ -3,4 +3,8 @@ platform: windows
 
 run:
   path: powershell
-  args: ["pwd"]
+  args: 
+  pwd
+  tree
+  pwd
+  tree
