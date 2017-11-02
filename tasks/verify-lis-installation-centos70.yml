@@ -1,0 +1,13 @@
+---
+platform: windows
+
+inputs:
+- name: ci-files
+- name: azure-linux-automation
+
+run:
+  path: powershell
+  dir: azure-linux-automation
+  args: 
+  - ..\ci-files\scripts\verify-lis-installation-centos70.ps1;
+  - echo Success1;
