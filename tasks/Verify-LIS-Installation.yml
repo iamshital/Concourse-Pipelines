@@ -8,4 +8,8 @@ run:
   path: powershell
   dir: "CP"
   args: 
-  - .\scripts\script1.ps1
+  - 
+  Get-Process
+  .\scripts\script1.ps1
+  pwd
+  tree
