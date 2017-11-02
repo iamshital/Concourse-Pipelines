@@ -1,6 +1,9 @@
 ---
 platform: windows
 
+inputs:
+- name: CP
+
 run:
   path: powershell
-  args: ["pwd"]
+  args: ["ls"]
