@@ -6,4 +6,4 @@ inputs:
 
 run:
   path: powershell
-  args: ["CP\script1.ps1"]
+  args: ["CP\\script1.ps1"]
