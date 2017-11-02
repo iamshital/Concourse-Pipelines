@@ -10,8 +10,7 @@ run:
   args: 
   - .\scripts\script1.ps1;
   - echo Success1;
-
-run:
+  
   path: powershell
   dir: "CP"
   args: 
