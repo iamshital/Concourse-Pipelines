@@ -2,17 +2,12 @@
 platform: windows
 
 inputs:
-- name: CP
+- name: ci-files
+- name: azure-linux-automation
 
 run:
   path: powershell
-  dir: "CP"
+  dir: "ci-files"
   args: 
   - .\scripts\script1.ps1;
   - echo Success1;
-  
-  path: powershell
-  dir: "CP"
-  args: 
-  - .\scripts\script1.ps1;
-  - echo Success2;
