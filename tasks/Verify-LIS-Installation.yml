@@ -7,4 +7,4 @@ inputs:
 run:
   path: powershell
   dir: "CP"
-  args: ["cat README.md"]
+  args: [".\\scripts\\script1.ps1"]
