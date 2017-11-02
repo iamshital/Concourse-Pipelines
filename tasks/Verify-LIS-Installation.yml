@@ -1,6 +1,14 @@
 ---
 platform: windows
 
+inputs:
+- name: CP
+
 run:
   path: powershell
-  args: ["pwd"]
+  dir: "CP"
+  args: 
+  - Get-Process;
+  - pwd;
+  - .\scripts\script1.ps1;
+  - dir -Recurse;
