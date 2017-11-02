@@ -9,6 +9,3 @@ run:
   dir: "CP"
   args: 
   - Get-Process
-  .\scripts\script1.ps1
-  pwd
-  tree
