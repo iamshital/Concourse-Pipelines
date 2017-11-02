@@ -9,11 +9,11 @@ run:
   dir: "CP"
   args: 
   - .\scripts\script1.ps1;
-  - echo Success;
+  - echo Success1;
 
 run:
   path: powershell
   dir: "CP"
   args: 
   - .\scripts\script1.ps1;
-  - echo Success;
+  - echo Success2;
