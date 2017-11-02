@@ -1,0 +1,13 @@
+---
+platform: windows
+
+inputs:
+- name: ci-files
+- name: azure-linux-automation
+
+run:
+  path: powershell
+  dir: "ci-files"
+  args: 
+  - .\scripts\script1.ps1;
+  - echo Success1;
