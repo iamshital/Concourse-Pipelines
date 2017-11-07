@@ -13,5 +13,5 @@ mkdir C:\AutomationExecutions\$Day\$Time -ErrorAction SilentlyContinue
 $folderName = "C:\AutomationExecutions\$Day\$Time"
 Copy-Item -Recurse * $folderName
 cd $folderName
-.\AzureAutomationManager.ps1 -runtests -Distro CentOS71 -cycleName PROVISION -xmlConfigFile Azure_ICA_all_run-CloudTestAutoBuilds-3427.xml -OverrideVMSize Standard_A1 -ImageType Standard -UseAzureResourceManager
+.\AzureAutomationManager.ps1 -runtests -Distro CentOS71 -cycleName LIS-BUILD -xmlConfigFile Azure_ICA_all_run-CloudTestAutoBuilds-3427.xml -OverrideVMSize Standard_A1 -ImageType Standard -UseAzureResourceManager
 exit 0
